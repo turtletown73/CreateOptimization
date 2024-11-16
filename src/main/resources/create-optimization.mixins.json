@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.scoobis.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"MixinChute",
+		"MixinLargeWaterWheel",
+		"MixinWaterWheel",
+		"MixinFunnel"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
